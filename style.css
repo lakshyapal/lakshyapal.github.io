@@ -6,15 +6,8 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 0.8em; line-height: 1.4; }
+body { margin: 0; font-size: 0.8em; line-height: 1.4; background: #f6f6f6;font-family: 'Quicksand', sans-serif;}
 
-body, button, input, select, textarea { font-family: sans-serif; color: #222; }
-
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection declarations have to be separate
- * Also: hot pink! (or customize the background color to match your design)
- */
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
