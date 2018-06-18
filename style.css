@@ -12,7 +12,9 @@ body { margin: 0; font-size: 0.8em; line-height: 1.4; background: #f6f6f6;font-f
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-
+li{
+  list-style: none;
+}
 /* =============================================================================
    Links
    ========================================================================== */
@@ -194,6 +196,17 @@ td{
 
 .project > .title {
 	margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+#objective > .title{
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+#Education > .title{
+  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 .project > .meta {
