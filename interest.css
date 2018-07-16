@@ -137,7 +137,7 @@ body{
 }
 
 .experience .experience-items > .company-desc {
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Poiret One', cursive;
     color: #13414e;
     font-weight: 600;
@@ -275,6 +275,7 @@ body{
     font-family: 'Poiret One', cursive;
     color: #13414e;
     font-weight: 1000;
+    font-size: 13px;
 } 
 
 
@@ -313,7 +314,7 @@ body{
     font-family: 'Poiret One', cursive;
     color: #13414e;
     font-weight: 1000;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 /***********HOBBIES************/
@@ -375,7 +376,9 @@ body{
     .p-card{
         width: 100%;
     }
-	
+	.hobbies .iteam h4{
+        font-size: 1rem;
+    }
 
 }
 
@@ -391,6 +394,10 @@ body{
     }
     .experience .experience-items > .date {
         position: inherit;
+    }
+
+    .hobbies .iteam h4{
+        font-size: 1rem;
     }
 
 }
