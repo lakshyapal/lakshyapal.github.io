@@ -1,0 +1,1967 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/regular.css" integrity="sha384-avJt9MoJH2rB4PKRsJRHZv7yiFZn8LrnXuzvmZoD3fh1aL6aM6s0BBcnCvBe6XSD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
+  <!-- font -->
+    <title>Hello, world!</title>
+  </head>
+  <body onresize="resizeScreen()">
+    <div class="container-fluid rm-padding">
+    	<div class="row page">
+    		<div class="col-12 col-sm-4 rm-padding" >
+
+    			<div class="left-menu">
+		    		<nav class="navbar grey">
+		    				
+		    					<div class="col-3">
+		    						<img src="https://lakshyapal.github.io/profile.jpg" class="rounded-circle pic" alt="My profile" width="50" height="50">
+		    					</div>
+		    					<div class="d-flex col-9 justify-content-end">
+		    						<div class="flex-grow-1"><i class="far fa-comment fa-3x" style="cursor: pointer;"></i></div>
+		    						<div class="dropdown">
+									  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+									  </button>
+									  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+									    <a class="dropdown-item" href="#">New Group</a>
+									    <a class="dropdown-item" href="#">New broadcast</a>
+									    <a class="dropdown-item" href="#">Whatsapp Web</a>
+									    <a class="dropdown-item" href="#">Settings</a>
+									  </div>
+									</div>
+		    					</div>
+		    		</nav>
+
+		    		<div class="container list" id="myscroll">
+		    			<div class="row showmessage" id="1">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="https://lakshyapal.github.io/profile.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">Lakshya</div>
+		    				<div class="col-3 col-sm-3 col-md-3"><div class="d-flex align-items-start">10:00 AM</div><span class="badge badge-primary messageCount1">7</span></div>
+		    			</div>
+		    			<div class="row showmessage" id="2">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/11.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">euismod</div>
+		    				<div class="col-3 col-sm-3 col-md-3"><div class="d-flex align-items-start">7:00 PM</div><span class="badge badge-primary messageCount2">1</span></div>
+		    				
+		    			</div>
+		    			<div class="row showmessage" id="3">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/2.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">fermentum </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="4">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/3.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">Curabitur </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="5">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/4.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">tincidunt </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="6">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/5.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">consectetur </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="7">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/6.jpeg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">porttitor</div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="8">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/7.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">scelerisque </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="9">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/8.jpeg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">tincidunt </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="10">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/9.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">pulvinar </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="11">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/10.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">bibendum </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="12">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="images/11.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">ultricies </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    			<div class="row showmessage" id="13">
+		    				<div class="col-2 col-2 col-sm-2 col-md-2"><img src="https://lakshyapal.github.io/profile.jpg" class="rounded-circle" alt="My profile" width="50" height="50"></div>
+		    				<div class="col-7 col-sm-7 col-md-7 justify-content-center d-flex align-items-center">feugiat </div>
+		    				<div class="col-3 col-sm-3 col-md-3">12:00</div>
+		    			</div>
+		    		</div>
+	    		</div><!--left-menu ends-->
+
+	    		<div class="profile">
+		          <header class="profile_bar">
+		            <div class="row profile_header">
+		              <button type="button" class="btn btn-link profilepanal text-info"><i class="fas fa-arrow-left back_main"></i></button>
+		            </div>
+		          </header>
+		          <!-- End profile-bar -->
+		          <div class="">
+		            <!-- pic -->
+		            <div class="row remove-right-margin">
+		            	<div class="col-12">
+				            <div class="profile_pic d-flex justify-content-center">
+				              <div class="pic_col">
+				                <img src="https://lakshyapal.github.io/profile.jpg" class="rounded-circle picture" alt="profile">
+				              </div>
+				            </div>
+		            	</div>
+		            </div>
+		            <!-- end pic -->
+		            <!-- name -->
+		            <div class="row remove-right-margin">
+		            	<div class="col-12">
+				            <div class="profile_name">
+				              <div class="profile_name_title">
+				                <div class="profile_name_desc row remove-right-margin">
+				                  <div class="col-12 text-info">
+				                    <h3>Lakshya</h3>
+				                  </div>
+				                </div>
+				              </div>
+				            </div>
+			            </div>
+		            </div>
+		            
+		            <div class="row remove-right-margin">
+		            	<div class="col-12">
+			              <h5>About</h5>
+		              </div>
+		            </div>
+
+		            <div class="row remove-right-margin profile_status">
+		            	<div class="col-12 text-info"><h5>Praesent dignissim, dui luctus pellentesque finibus, urna augue eleifend dui, et volutpat magna arcu vel tortor. Sed cursus interdum aliquam. Morbi scelerisque nulla in arcu malesuada fermentum.</h5></div>
+		            </div>
+		            <!-- end about me -->
+		          </div>
+        		</div>
+    		</div>
+    		
+
+
+
+    		<div class="col-12 col-sm-8 right-menu">
+
+    			<div class="parentchatdiv" id="startMessage">
+    				<div class="container">
+    					<div class="d-flex align-items-center" style="height: 100vh;"> 
+
+    						<div class="d-flex flex-column">
+    							<div class="d-flex justify-content-center" style="color: #1dd0b4;"><h3>Keep your phone connected</h3></div>
+    							<div class="d-flex justify-content-center text-muted"><p>Whatsapp web connects your phone to sync messages. To Reduce data usages, connect your phone with WiFi</p></div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="parentchatdiv displaynone" data-messageid="1">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="https://lakshyapal.github.io/profile.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="https://lakshyapal.github.io/profile.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+
+	    		<div class="parentchatdiv displaynone" data-messageid="2">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/11.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Lorem ipsum dolor sit amet,</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight"> consectetur adipiscing elit.</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight"> iaculis eros ex, in molestie mau</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">iaculis!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">culis eros ex, in molest</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I culis eros ex, in molest you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hm ligula, suscipit digou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I m ligula, suscipit digou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">elementum!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fielementumt you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hoelementumou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am felementum elementum u ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/11.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+
+	    		<div class="parentchatdiv displaynone" data-messageid="3">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/2.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">is nibh nibh, pharetra ac!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Houtpat ut purus. Sed triou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I abh nibh, pharetra au ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hbh nibh, pharetra au ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I amod fringilla velit vel coou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">o ultricies ris!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am o ultricies risou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight"> aliquet tempus liou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hmet, luctus sed diam. ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am rem. Vestibulum euismod ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/2.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+
+	    		<div class="parentchatdiv displaynone" data-messageid="4">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/3.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">rem. Vestibulum euismod!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hrem. Vestibulum euismodou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I a ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">H, nascetur ridiou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight"> ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">roin luctus nulla sed lorem !</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hroin luctus nulla sed lorem u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">Irra est, ac rutrumyou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hd feugiat mauris auctu ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I porta sit amet.  ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">nec lacinia mi ullamc!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hue, ullamcorper ligula u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I ris nibh nibh, pharetou ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/3.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+
+	    		<div class="parentchatdiv displaynone" data-messageid="5">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/4.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/4.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+
+	    		<div class="parentchatdiv displaynone" data-messageid="6">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/5.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">rem. Vestibulum euismod!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hrem. Vestibulum euismodou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I a ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">H, nascetur ridiou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight"> ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">roin luctus nulla sed lorem !</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hroin luctus nulla sed lorem u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">Irra est, ac rutrumyou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hd feugiat mauris auctu ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I porta sit amet.  ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">nec lacinia mi ullamc!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hue, ullamcorper ligula u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I ris nibh nibh, pharetou ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/5.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+
+	    		<div class="parentchatdiv displaynone" data-messageid="7">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/6.jpeg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/6.jpeg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+	    		<div class="parentchatdiv displaynone" data-messageid="8">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/7.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">rem. Vestibulum euismod!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hrem. Vestibulum euismodou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I a ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">H, nascetur ridiou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight"> ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">roin luctus nulla sed lorem !</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hroin luctus nulla sed lorem u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">Irra est, ac rutrumyou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hd feugiat mauris auctu ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I porta sit amet.  ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">nec lacinia mi ullamc!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hue, ullamcorper ligula u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I ris nibh nibh, pharetou ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/7.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+	    		<div class="parentchatdiv displaynone" data-messageid="9">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/8.jpeg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/8.jpeg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+	    		<div class="parentchatdiv displaynone" data-messageid="10">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/9.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">rem. Vestibulum euismod!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hrem. Vestibulum euismodou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I a ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">H, nascetur ridiou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight"> ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">roin luctus nulla sed lorem !</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hroin luctus nulla sed lorem u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">Irra est, ac rutrumyou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hd feugiat mauris auctu ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I porta sit amet.  ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">nec lacinia mi ullamc!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hue, ullamcorper ligula u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I ris nibh nibh, pharetou ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/9.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+	    		<div class="parentchatdiv displaynone" data-messageid="11">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/10.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header">
+			              <button type="button" class="btn btn-link user-pro text-info"><i class="fas fa-arrow-left back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/10.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+	    		<div class="parentchatdiv displaynone" data-messageid="12">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="images/11.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">rem. Vestibulum euismod!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hrem. Vestibulum euismodou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I a ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">H, nascetur ridiou ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight"> ligula, quis cuou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">roin luctus nulla sed lorem !</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hroin luctus nulla sed lorem u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">Irra est, ac rutrumyou ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hd feugiat mauris auctu ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I porta sit amet.  ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">nec lacinia mi ullamc!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hue, ullamcorper ligula u ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I ris nibh nibh, pharetou ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="images/11.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+	    		<div class="parentchatdiv displaynone" data-messageid="13">
+	    			<nav class="navbar grey">
+	    				
+						<div class="col-5 d-flex">
+							<div class="d-flex d-sm-none d-md-none d-lg-none d-lg-none justify-content-start">
+								<button type="button" class="btn btn-link chatwindow text-info"><i class="fas fa-arrow-left back_main"></i></button>
+							</div>
+							<img src="https://lakshyapal.github.io/profile.jpg" class="rounded-circle user-pro" alt="My profile" width="50" height="50">
+						</div>
+						<div class="col-7 flex-row-reverse d-flex">
+							<div class="dropdown">
+							  <button class="btn btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="fas fa-ellipsis-v menu fa-2x"></i>
+							  </button>
+							  <div class="dropdown-menu shift-menu-right" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">View Contact</a>
+							    <a class="dropdown-item" href="#">Media</a>
+							    <a class="dropdown-item" href="#">Search</a>
+							    <a class="dropdown-item" href="#">Mute notification</a>
+							  </div>
+							</div>
+						</div>
+		    		</nav>
+		    		<section class="chatsection" id="myscroll2">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">Hi!</div>
+		    				</div>
+		    				<div class="row">
+		    					<div class="p-2 bd-highlight">How are you ?</div>
+		    				</div>
+		    				<div class="row flex-row-reverse d-flex">
+		    					<div class="p-2 bd-highlight">I am fine. what about you ?</div>
+		    				</div>
+		    			</div>
+		    		</section>
+		    		<footer class="messageEnter">
+		    			<div class="container">
+		    				<div class="row">
+		    					<div class="col-10">
+		    						<input type="text" name="message" placeholder="Enter your message here">
+		    					</div>
+		    					<div class="col-2 d-flex justify-content-center">
+		    						<button class="btn">send</button>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</footer>
+
+		    		<div class="user-profile col-12 col-md-4 rm-padding remove-right-margin">
+			          <header class="profile_bar">
+			            <div class="row profile_header d-flex justify-content-end">
+			              <button type="button" class="btn btn-link user-pro-undo text-info"><i class="fas fa-arrow-right back_main"></i></button>
+			            </div>
+			          </header>
+			          
+			            <!-- pic -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="d-flex justify-content-center">
+					              <div class="pic_col">
+					                <img src="https://lakshyapal.github.io/profile.jpg" class="rounded-circle picture" alt="profile">
+					              </div>
+					            </div>
+			            	</div>
+			            </div>
+			            <!-- end pic -->
+			            <!-- name -->
+			            <div class="row">
+			            	<div class="col-12">
+					            <div class="profile_name">
+					              <div class="profile_name_title">
+					                <p class="text-muted">About and phone number</p>
+					                <div class="profile_name_desc row">
+					                  <div class="col-12 text-info">
+					                    <p>Mind Changing is life changing</p>
+					                  </div>
+					                  <div class="col-12 text-info">
+					                    <p>+91-8860478444</p>
+					                  </div>
+					                </div>
+					              </div>
+					            </div>
+				            </div>
+			            </div>
+			           
+			            <div class="row">
+			            	<div class="col-12">
+				              <div class="f-flex block-status justify-content-end"><i class="fas fa-ban" style="color: red;"></i>Block</div>
+			              </div>
+			            </div>
+
+        			</div>
+
+	    		</div>
+
+
+
+
+	    		<!--Right profile-->
+	    		<div class="userProfile">
+	    			<header class="profile_bar">
+		            <div class="row profile_header">
+		              <button type="button" class="btn btn-link text-info"><i class="fas fa-arrow-left back_main"></i></button>
+		            </div>
+		          </header>
+	    		</div>
+	    		<!--right profile end-->
+
+    		</div>
+    	</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+    	let resizeScreen = () => {
+
+    		if(window.innerWidth < 576){
+    			window.location.href = window.location.href;
+    		}
+    	}
+
+    	$(".pic").click(function(){
+		  $('.profile').css('left', '0');
+		  $('.left-menu').css('left', '-100%');
+		});
+
+		$(".profilepanal").click(function(){
+			$('.profile').css('left', '-100%');
+		  $('.left-menu').css('left', '0');
+		});
+
+	
+		$('.user-pro').click( ()=>{
+			$('.user-profile').css('top','0px');
+			$('.user-profile').css('right','0px');
+		});
+
+		$('.user-pro-undo').click(()=>{
+			$('.user-profile').css('top','-100%');
+			$('.user-profile').css('right','-100%');
+		});
+
+		$(".showmessage").click(function(){
+
+			let glob = $(this).attr('id');
+
+			if(window.innerWidth < 576){
+				$("div[data-messageid]").removeClass('mobile-display');
+				$("div[data-messageid='"+glob+"']").addClass('mobile-display');
+				$(".messageCount"+glob).hide();
+			}else{
+				$('#startMessage').hide();
+				$("div[data-messageid]").removeClass('display-message-desktop');
+				$("div[data-messageid='"+glob+"']").addClass('display-message-desktop');
+				$(".messageCount"+glob).hide();
+			}
+			
+		});
+
+		$(".chatwindow").click( ()=>{
+			$('.parentchatdiv').removeClass('mobile-display');
+			
+		});
+    </script>
+  </body>
+</html>
