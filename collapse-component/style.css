@@ -1,0 +1,26 @@
+ .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.accod{
+    flex: 0 0 100%;
+    max-width: 100%;
+    background: #f9f9f9;
+    border-top: 1px solid #d4f1eb;
+    border-radius: 5px;
+}
+.heading{
+    background: #c8ffeb52;
+    cursor: pointer;
+    padding: 15px;
+    flex: 1 1 auto;
+}
+.content{
+    padding: 5px 10px;
+}
