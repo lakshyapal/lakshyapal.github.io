@@ -6,20 +6,30 @@ let defaultImgaeAddress = "http://www.crgapartments.com/templates/crg-cambridger
 
 $(document).ready(()=>{
 
-	$('#form1,#form2').submit((e)=>{
-
+	$('#form1').submit((e)=>{ // search by title
+		console.log(e);
 		e.preventDefault();
 
 		if($('#title').val() ==null || $('#title').val() =="" ){
 			alert('Title cannot be left blank');
 			return false;
 		}
-		$('.movie-content').html(``);
-		htmlStr = "";
-		$('.modal-body').css('background-image','');
-		$('#img').attr('src',`${loderImageAddress}`)
-		$('#exampleModal').modal('show')
+		removeOldContetn();
 		getThePromiceData(url,$('#form1').serialize())
+		.then((data)=> populateData(data)) // call the populate function on promise resolve
+		.catch( (err)=>console.log(err))	// reject if some error occur
+	});	
+
+	$('#form2').submit((e)=>{ // serach by id
+		console.log(e);
+		e.preventDefault();
+
+		if($('#id').val() ==null || $('#id').val() =="" ){
+			alert('Title cannot be left blank');
+			return false;
+		}
+		removeOldContetn();
+		getThePromiceData(url,$('#form2').serialize())
 		.then((data)=> populateData(data)) // call the populate function on promise resolve
 		.catch( (err)=>console.log(err))	// reject if some error occur
 	});	
@@ -68,7 +78,7 @@ let getThePromiceData = (url,formData)=>{
 
 let populateData = (data) =>{
 
-	
+
 	$('.modal-body').css({
 		'background-image':`url(${data.Poster})`,
 		'min-height':'80vh',
@@ -107,3 +117,11 @@ let populateData = (data) =>{
 
 }
 
+let removeOldContetn = () =>{
+
+	$('.movie-content').html(``);
+	htmlStr = "";
+	$('.modal-body').css('background-image','');
+	$('#img').attr('src',`${loderImageAddress}`)
+	$('#exampleModal').modal('show')
+}
