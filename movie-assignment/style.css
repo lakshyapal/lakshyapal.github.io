@@ -1,0 +1,31 @@
+.redgb{
+	background-color: #ef2323 !important;
+}
+
+.bodybgimage{
+	background-image: url(bgmovie_img.jpg);
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+}
+
+.textwhite{
+	color: white !important;
+	font-weight: 700 !important;
+}
+
+.movie-content .row{
+	background-color: white;
+	border: 1px solid #fba7a782;
+	font-family: 'Mirza', cursive;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 480px){
+
+	.mobileMC{
+		display: flex !important;
+		justify-content: center !important; 
+	}
+
+}

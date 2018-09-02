@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Movie listing</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body class="bodybgimage d-flex align-items-center">
+
+    <!--Model code--> 
+<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!--Model code ends-->
+
+<div class="container" style="margin: 21vh auto;">
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header redgb" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link textwhite" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Search By Title Or Year
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <form class="form-inline justify-content-center " id="form1">
+                        <!--title input-->  
+                <div class="form-inline justify-content-center">
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Title</div>
+                      </div>
+                      <input type="text" class="form-control" id="title" name="t" value="">
+                    </div>
+                    <!--year input-->
+                    
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">Year</div>
+                      </div>
+                      <input type="text" class="form-control" id="year" name="y" value="">
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Plot</span>
+                              </div>
+                        <select class="custom-select" id="inputGroupSelect01" name="plot">
+                          <option selected=""></option>
+                          <option value="short">Short</option>
+                          <option value="full">Full</option>
+                        </select>
+                    </div>
+                  </div>
+                          
+                  <div class="form-inline w-100 align-items-center justify-content-center">
+                      <!--plot length input-->
+                        
+                      <!--submit button-->
+                  <button type="submit" class="btn btn-primary mb-3 mr-2 ml-2  redgb">Search</button>
+                </div>
+
+            </form>
+          </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header redgb" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed textwhite" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Search By IMDB-ID
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <form class="form-inline justify-content-center">
+                    <div class="form-inline justify-content-center">
+                        <div class="input-group mb-2 mr-sm-2">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text">Id</div>
+                              </div>
+                              <input type="text" class="form-control" id="id" value="" name="i">
+                        </div>
+
+                        <div class="form-inline w-100 align-items-center justify-content-center">
+                                    <!--plot length input-->
+                                    <div class="input-group mb-3">
+                                          <div class="input-group-prepend">
+                                                  <span class="input-group-text" id="basic-addon2">Plot</span>
+                                                </div>
+                                          <select class="custom-select" id="inputGroupSelect02" name="plot">
+                                            <option selected=""></option>
+                                            <option value="short">Short</option>
+                                            <option value="full">Full</option>
+                                        </select>
+                                    </div>
+                                    <!--submit button-->
+                                <button type="submit" class="btn btn-primary mb-3 mr-2 ml-2 show" data-size-text="smalltexts" data-position-modal="normal-small" data-id-modal="threeMod">Search</button>
+                        </div>
+
+                    </div>
+            </form>
+          </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="code.js">
+        
+    </script>
+
+  </body>
+
+
+</html>
