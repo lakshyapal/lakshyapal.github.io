@@ -270,6 +270,24 @@ body{
     box-shadow: 9px 7px 72px #075184;
     transform: rotate(360deg);
 }
+.skills .skill-line-container .skill-line > .skill-line-items7{
+	position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #e5e5be;
+    border-radius: 50%;
+    top: -43px;
+    background: #fff;
+    margin-left: 1250px;
+    background: #a7cdf5;
+    background: -webkit-linear-gradient(to bottom, #a7cdf5, #e5e5be);
+    background: linear-gradient(to bottom, #b0d0ec, #82b7dc);
+    transition: 0.4s;
+}
+.skills .skill-line-container .skill-line > .skill-line-items7:hover{
+    box-shadow: 9px 7px 72px #075184;
+    transform: rotate(360deg);
+}
 .skills .skill-line-container .skill-line  .skill-per{
 	padding: 28px;
     font-family: 'Poiret One', cursive;
